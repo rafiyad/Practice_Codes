@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VowelsChecker {
+public class SimpleBanking {
     public static void main(String[] args) {
         int balance=0,n1,n2;
         Scanner input =new Scanner(System.in);
