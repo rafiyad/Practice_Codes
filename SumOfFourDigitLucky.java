@@ -15,10 +15,14 @@ public class SumOfNodeBinaryTree {
 //        System.out.println(c);
 //        System.out.println(d);
 
-        if(c+d==a+b){
-            System.out.println("Lucky Number");
+      if(x>999&&x<10000) {
+
+            if (c + d == a + b) {
+                System.out.println("Lucky Number");
+            } else
+                System.out.println("Not Lucky Number");
         }
         else
-            System.out.println("Not Lucky Number");
+            System.out.println("Not a four digit number");
     }
 }
