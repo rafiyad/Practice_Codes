@@ -22,7 +22,8 @@ public class SomeOfTwoNumberInSortedArray {
             // Check if the complement is in the HashSet
             if (seen.contains(complement)) {
                 // If found, print the pair
-                System.out.println(num + " " + complement);
+                System.out.println(complement + " " + num);
+                break;
             }
             seen.add(num);
         }
